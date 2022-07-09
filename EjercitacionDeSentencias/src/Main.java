@@ -2,17 +2,23 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        /* Crear un programa que sirva para calcular el importe de una compra, se debe
-           solicitar al ususario que ingrese por consola:
+        exercise2();
 
-           a)el nombre del producto.
-           b)el precio del producto.
-           c)el metodo de pago, las opciones son:
 
-           1- Contado tiene 15% de descuento.
-           2- Debito mismo precio al ingresado.
-           3- Tarjeta 10% de recargo.
-         */
+    }
+
+    private static void exercise2() {
+    /* Crear un programa que sirva para calcular el importe de una compra, se debe
+       solicitar al ususario que ingrese por consola:
+
+       a)el nombre del producto.
+       b)el precio del producto.
+       c)el metodo de pago, las opciones son:
+
+       1- Contado tiene 15% de descuento.
+       2- Debito mismo precio al ingresado.
+       3- Tarjeta 10% de recargo.
+     */
 
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Nombre del producto");
@@ -37,7 +43,5 @@ public class Main {
             System.out.println("10% de recargo en su compra: tarjetas aderidas a compras visa mastercar, naranja visa");
         }
         System.out.println("El precio final a pagar por el producto " + producto + " es: $ " + totalapagar);
-
-
     }
 }
