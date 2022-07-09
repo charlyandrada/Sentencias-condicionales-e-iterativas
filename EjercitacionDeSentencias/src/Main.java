@@ -2,6 +2,12 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        exercise3();
+
+
+    }
+
+    private static void exercise3() {
         Scanner myScanner = new Scanner(System.in);
         //ingresar por consola nombre del alumno//
         System.out.println("Nombre del alumno:");
@@ -34,7 +40,5 @@ public class Main {
         } else if (prome >= 9 && prome <= 10) {
             System.out.println("El alumno: " + nombre + " A promocionado. ");
         }
-
-
     }
 }
