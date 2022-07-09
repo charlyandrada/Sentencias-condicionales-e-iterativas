@@ -5,6 +5,12 @@ public class Main {
 
         //Crear un programa que pida dos numeros por consola y me indique cual es el mayor.
 
+        exercise1();
+
+
+    }
+
+    private static void exercise1() {
         Scanner myScanner = new Scanner(System.in);
         System.out.println("Ingresar el primer numero:");
         int n1 , n2 ;
@@ -20,7 +26,5 @@ public class Main {
         else {
             System.out.println("El numero mayor es:" + n1);
         }
-
-
     }
 }
