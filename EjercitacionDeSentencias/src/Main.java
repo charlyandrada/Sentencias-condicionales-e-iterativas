@@ -3,10 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        //Crear un programa que pida dos numeros por consola y me indique cual es el mayor.
-
         exercise1();
-
 
     }
 
