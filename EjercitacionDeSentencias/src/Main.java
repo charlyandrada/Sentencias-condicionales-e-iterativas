@@ -2,9 +2,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        exercise6();
-    }
+        exercise7();}
 
+    private static void exercise7() {
+        //imprimir triangulo de mayor a menor//
+        for (int i = 0; i < 7; i++) {
+            String msg = "";
+            for (int j = 0; j < 7 - i; j++) {
+            }
+        }
+
+            exercise6();}
     private static void exercise6() {
         // imprimir un triangulo de menor a mayor//
         for (int i = 0; i < 7; i++) {
@@ -16,18 +24,15 @@ public class Main {
         }
 
 
-        exercise5();
-    }
+        exercise5();}
 
     private static void exercise5() {
         // imprimir por consola los numeros del 1 al 10, uno por linea//
-
-
         for (int i = 1; i < 11; i++) {
-            System.out.println(i);}
+            System.out.println(i); }
 
-        exercise4();
-    }
+
+        exercise4();}
 
     private static void exercise4() {
         // imprimir por consola 10 veces el string foo//
@@ -37,8 +42,7 @@ public class Main {
         }
 
 
-        exercise3();
-    }
+        exercise3();}
     private static void exercise3() {
         Scanner myScanner = new Scanner(System.in);
         //ingresar por consola nombre del alumno//
@@ -74,8 +78,7 @@ public class Main {
         }
 
 
-            exercise2();
-        }
+            exercise2();}
 
     private static void exercise2() {
     /* Crear un programa que sirva para calcular el importe de una compra, se debe
@@ -116,8 +119,7 @@ public class Main {
 
 
 
-        exercise1();
-    }
+        exercise1();}
 
     private static void exercise1() {
         Scanner myScanner = new Scanner(System.in);
