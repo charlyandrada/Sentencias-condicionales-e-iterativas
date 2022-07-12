@@ -2,6 +2,15 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        exercise8();}
+
+    private static void exercise8() {
+        for (int i = 0; i < 7; i++) {
+            String msg = "";
+            for (int j = 0; j < 6 - i; j++) {
+                msg = msg + " ";
+            }
+        }
         exercise7();}
 
     private static void exercise7() {
@@ -22,7 +31,6 @@ public class Main {
             }
             System.out.println(msg);
         }
-
 
         exercise5();}
 
