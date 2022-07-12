@@ -11,8 +11,6 @@ public class Main {
                 msg = msg + "*";
             }
             System.out.println(msg);
-
-
         }
     }
 }
